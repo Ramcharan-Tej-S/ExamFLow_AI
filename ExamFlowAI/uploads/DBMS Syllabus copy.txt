@@ -1,0 +1,207 @@
+Code: BCS403 Course: Database Management System
+Credits: 4 L:T:P - 3:0:2
+SEE: 100 Marks CIE: 100 Marks
+SEE Hours: 3 Max. Marks: 100
+
+Prerequisites if any NIL
+Learning objectives 1. Understand the fundamental concepts of databases, including database
+languages, architectures, and conceptual data modeling using entities and
+relationships.
+2. Gain proficiency in relational database management systems, including the
+relational model, relational algebra, normalization, SQL, and transaction
+processing.
+
+Course Outcomes:
+On the successful completion of the course, the student will be able to
+COs Course Outcomes Bloom’s level
+CO1 Describe fundamental concepts of database management systems, including architecture,
+languages, and functionalities. Understand
+CO2 Design and implement database schemas using entities, relationships, and normalization
+techniques. Apply
+CO3 Demonstrate proficiency in SQL for data manipulation, retrieval, and management tasks. Apply
+CO4 Analyze and compare concurrency control mechanisms in relational databases and
+NoSQL databases, understanding their respective advantages and limitations. Analyze
+Mapping with POs and PSOs:
+COs PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 PO12 PSO1 PSO2
+CO1 2 - - - - - - - - - - - - -
+CO2 3 3 2 - - - - - - - - - 2 2
+CO3 2 2 2 - 3 - - - - - - 2 2 3
+CO4 2 - - - 3 - - - - - - 3 2 2
+Mapping Strength: Strong– 3 Medium – 2 Low – 1
+Course Structure
+
+No. of
+Lecture
+Hours
+
+No. of
+Tutorial
+Hours
+
+No. of
+Practical
+Hours
+
+Module – 1: Introduction to Databases
+1.1 Introduction to Databases: Introduction, Characteristics of database approach,
+Advantages of using the DBMS approach, History of database applications. 2 - 0
+1.2
+Overview of Database Languages and Architectures: Data Models, Schemas, and
+Instances. Three schema architecture and data independence. Database languages, and
+interfaces, The Database System environment.
+
+3 - 0
+
+1.3
+Conceptual Data Modelling using Entities and Relationships: Entity types, Entity sets
+and structural constraints, Weak entity types, ER diagrams, Specialization and
+Generalization
+
+3 - 1
+
+Module – 2: Relational Databases
+
+2.1
+Relational Model: Relational Model Concepts, Relational Model Constraints and
+relational database schemas, Update operations, transactions, and dealing with constraint
+violations.
+
+3 - 0
+
+2.2 Relational Algebra: Unary and Binary relational operations, additional relational
+operations (aggregate, grouping, etc.) Examples of Queries in relational algebra. 3 - 0
+2.3 Mapping Conceptual Design into a Logical Design: Relational Database Design using 2 - 0
+9/30 Dept. of CS&E
+
+The National Institute of Engineering, Mysuru 2023-24
+
+B.E. Blown up Syllabus
+ER-to-Relational mapping
+
+Module – 3: Normalization and SQL
+
+3.1
+Normalization: Database Design Theory – Introduction to Normalization using
+Functional and Multivalued Dependencies: Informal design guidelines for relation schema,
+Functional Dependencies, Normal Forms based on Primary Keys, Second and Third
+Normal Forms, Boyce-Codd Normal Form, Multivalued Dependency and Fourth Normal
+Form, Join Dependencies and Fifth Normal Form.
+
+5 - 1
+
+3.2
+SQL: SQL data definition and data types, Schema change statements in SQL, specifying
+constraints in SQL, retrieval queries in SQL, INSERT, DELETE, and UPDATE
+statements in SQL, Additional features of SQL.
+
+3 - 2
+
+Module – 4: SQL and Transactions
+4.1 SQL: Advanced Queries: More complex SQL retrieval queries, Specifying constraints as
+assertions and action triggers, Views in SQL. 3 - 2
+4.2
+Transaction Processing: Introduction to Transaction Processing, Transaction and System
+concepts, Desirable properties of Transactions, Characterizing schedules based on
+recoverability, Characterizing schedules based on Serializability, Transaction support in
+SQL.
+
+5 - 1
+
+Module – 5: Concurrency control and NoSQL Databases
+
+5.1
+Concurrency Control in Databases: Two-phase locking techniques for Concurrency
+control, Concurrency control based on Timestamp ordering, Multiversion Concurrency
+control techniques, Validation Concurrency control techniques, Granularity of Data items
+and Multiple Granularity Locking.
+
+4 - 1
+
+5.2
+NoSQL Databases and Big Data Storage Systems: Introduction to NOSQL Systems,
+
+The CAP Theorem, Document-Based NOSQL Systems and MongoDB, NOSQL Key-
+Value Stores, Column-Based or Wide Column NOSQL Systems.
+
+4 - 2
+Total No. of Lecture Hours 40 - -
+Total No. of Tutorial Hours 00 -
+Total No. of Practical Hours 10
+
+PRACTICAL COMPONENT
+
+Sl. No. Experiments COs
+
+1.
+Create a table called Employee & execute the following.
+Employee (EMPNO, ENAME, JOB, MANAGER_NO, SAL, COMMISSION)
+1. Create a user and grant all permissions to the user.
+2. Insert any three records in the employee table containing attributes.
+EMPNO, ENAME JOB, MANAGER_NO, SAL, COMMISSION and
+use rollback. Check the result.
+3. Add primary key constraint and not null constraint to the employee table.
+4. Insert NULL values to the employee table and verify the result.
+
+CO3
+
+2.
+Create a table called Employee that contains attributes EMPNO, ENAME, JOB,
+MGR, SAL and execute the following.
+1. Add a column commission with domain to the Employee table.
+2. Insert any five records into the table.
+3. Update the column details of job.
+4. Rename the column of Employ table using alter command.
+5. Delete the employee whose EMPNO is 105.
+
+CO3
+
+3.
+Queries using aggregate functions (COUNT, AVG, MIN, MAX, SUM), Group
+by, Orderby.
+Employee (E_id, E_name, Age, Salary)
+1. Create Employee table containing all Records E_id, E_name, Age,
+Salary.
+2. Count number of employee names from employee table.
+3. Find the Maximum age from the employee table.
+4. Find the Minimum age from the employee table.
+5. Find salaries of employees in Ascending Order.
+
+CO3
+
+10/30 Dept. of CS&E
+
+The National Institute of Engineering, Mysuru 2023-24
+
+B.E. Blown up Syllabus
+
+6. Find grouped salaries of employees.
+
+4.
+Create a row level trigger for the customers table that would fire for INSERT or
+UPDATE or DELETE operations performed on the CUSTOMERS table. This
+trigger will display the salary difference between the old & new Salary.
+CUSTOMERS (ID, NAME, AGE, ADDRESS, SALARY)
+
+CO4
+
+5.
+Create cursor for Employee table and extract the values from the table. Declare
+the variables, Open the cursor, and extract the values from the cursor. Close the
+cursor.
+Employee (E_id, E_name, Age, Salary)
+
+CO4
+
+6.
+Install an Open-Source NoSQL Data base MongoDB & perform basic CRUD
+(Create, Read, Update & Delete) operations. Execute MongoDB basic Queries
+using CRUD operations.
+
+CO5
+
+7.
+Project-based Experiment:
+The project should use all the database concepts covered in theory and
+laboratory sessions. Students can integrate other relevant concepts/technologies
+as required.
+

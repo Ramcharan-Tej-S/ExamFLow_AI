@@ -1,0 +1,102 @@
+Code: BAI402 Course: Artificial Intelligence
+Credits: 4 L: T:P - 3:0:2
+SEE: 50 Marks CIE: 50 Marks
+SEE Hours: 3 Max. Marks: 100
+Prerequisites if any None
+Learning objectives 1. Develop an understanding of the historical context of AI and its fundamental
+
+principles.
+2. Acquire proficiency in applying basic AI principles to solve problems
+effectively.
+3. Familiarize oneself with the methodologies of inference, perception,
+knowledge representation, and learning in AI.
+
+Course Outcomes:
+On the successful completion of the course, the student will be able to
+COs Course Outcomes Bloom’s level
+CO1 Utilize fundamental AI principles to address problems involving problem-solving, inference,
+knowledge representation, and learning.
+
+Understanding
+CO2 Evaluate search and inference algorithms within the context of problem-solving Apply
+
+CO3 Exhibit understanding of reasoning, uncertainty, and knowledge representation for tackling real-
+world problems.
+
+Apply
+CO4 Execute experiments to address problems utilizing AI techniques. Analyze
+Mapping with POs and PSOs:
+COs PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 PO12 PSO1 PSO2
+CO1 3 - - - - - - - - - - 2 2 2
+CO2 - 3 - - 2 - - - - - - 2 2 2
+CO3 - - 2 2 - - - - - - - 2 2 2
+CO4 - - - 3 3 - - - - - - 2 2 2
+Mapping Strength: Strong– 3 Medium – 2 Low – 1
+Course Structure
+
+No. of
+Lecture
+Hours
+No. of
+Tutorial
+Hours
+
+No. of
+Practical
+Hours
+
+Module – 1: Introduction to AI
+
+1.1 Introduction: What is AI? Foundations of AI. 2 - -
+1.2 History of Artificial Intelligence 1 - -
+1.3 The State of the Art 1 - -
+1.4 Intelligent Agents: Agents and environment 1 - 1
+1.5 Concept of Rationality 1 - -
+1.6 The nature of environments 1 - -
+1.7 The structure of agents 1 - -
+
+Module – 2: Problem solving based on searching
+
+2.1 Problems solving Agents, Example problems 2 - -
+2.2 Searching for solutions 1 - -
+2.3 Uniformed Search strategies – Uniform cost search 1 - -
+2.4 Breadth First Search, Depth First Search 2 - 1
+2.5 Depth Limited Search 1 - -
+2.6 Iterative Deepening Depth First 1 - 1
+
+Module – 3: Heuristic Search Strategies
+
+3.1 Heuristic functions 1 - 1
+3.2 Greedy best first search 1 - -
+3.3 A* algorithm 1 - 1
+3.4 Local Search & Optimization: Hill Climbing 1 - -
+3.5 Genetic Algorithms 2 - -
+6/28 Dept. of CS&E
+
+The National Institute of Engineering, Mysuru 2023-24
+
+B.E. Blown up Syllabus
+
+Module – 4: Logical Agents, First Order Logic, Inference in First Order Logic
+
+4.1 Logical Agents: Knowledge–based agents 1 - -
+4.2 The Wumpus world, Logic 1 - 1
+4.3 Propositional logic 1 - -
+4.4 Reasoning patterns in Propositional Logic 1 - 1
+4.5 First Order Logic: Representation Revisited, Syntax and Semantics of First Order logic 2 - -
+4.6 Using First Order logic. 1 - -
+4.7 Inference in First Order Logic: Propositional Versus First Order Inference 1 - -
+4.8 Unification, Forward Chaining 1 - 1
+4.9 Backward Chaining, Resolution. 1 - 1
+
+Module – 5: Quantifying Uncertainty
+
+5.1 Acting under Uncertainty 1 - -
+5.2 Probability Notation 2 - -
+5.3 Inference using Full Joint Distributions 1 - 1
+5.4 Independence 1 - -
+5.5 Baye’s Rule and its use 2 - -
+5.6 Wumpus World Revisited 1 - -
+Total No. of Lecture Hours 40 - -
+Total No. of Tutorial Hours 00 -
+Total No. of Practical Hours 10
